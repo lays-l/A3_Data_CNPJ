@@ -1,6 +1,6 @@
 # Projeto Hackathon A3Data - DNA
 
-### Este repositório contém arquivos do projeto A3Data realizado pela equipe DNA composta por Isabella e Lays. 
+### Este repositório contém arquivos do projeto A3Data realizado pela equipe DNA composta por Isabella e Lays.
 
 Os times devem implementar pipeline de extração, transformação e disponibilização de dados. Após extração, limpeza, organização e estruturação dos dados, as perguntas chave do desafio devem ser respondidas de maneira visual.
 
@@ -27,10 +27,10 @@ O vídeo de apresentação pode ser acompanhado aqui no youtube: https://youtu.b
 
 ## Etapas realizadas:
 
-    Extração dos arquivos da página do Ministério da Economia
-    Limpeza, tratamentos dos dados e conversão para parquet via Python
-    Armazenamento da base completa em formato Parquet no BigQuery, bem como criação das tabelas
-    Power BI para visualizção dos dados no BigQuery
+Extração dos arquivos da página do Ministério da Economia
+Limpeza, tratamentos dos dados e conversão para parquet via Python
+Armazenamento da base completa em formato Parquet no BigQuery, bem como criação das tabelas
+Power BI para visualizção dos dados no BigQuery
 
 ## Procedimentos
 
