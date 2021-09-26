@@ -41,6 +41,14 @@ Obs: Na arquitetura original utilizada, o download direto do site da Receita Fed
 No código final, inserimos os arquivos previamente baixados no repositório do Google Cloud Storage para captura.
 
 
+### Uso do Dask
+Optamos pelo Dask pelo tempo de execução ter sido menor que o do PySpark, conforme exemplo abaixo.
+
+![image](https://user-images.githubusercontent.com/35038689/134814825-4df3009f-ad76-4028-aef9-7e63b4c2a7ce.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134814812-6f29f267-e747-46a6-9bf8-5d9fe76d7d52.png)
+
+
 ### DAG Airflow:
 
 ![](images/dag.PNG)
