@@ -37,7 +37,7 @@ O vídeo de apresentação pode ser acompanhado aqui no youtube: https://youtu.b
 ### Arquitetura
 
 
-![](dag.PNG)
+![](MicrosoftTeams-image.png)
 
 As tecnologias trabalhadas nesse projeto são baseadas na Cloud da Azure:
 
