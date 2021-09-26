@@ -38,6 +38,8 @@ Power BI para visualizção dos dados no BigQuery
 
 
 ![](images/MicrosoftTeams-image.png)
+Obs: Na arquitetura original utilizada, o download direto do site da Receita Federal leva mais tempo que o normal devido aos servidores onde estão hospedados.
+No código final, inserimos os arquivos previamente baixados no repositório do Google Cloud Storage para captura.
 
 As tecnologias trabalhadas nesse projeto são baseadas na Cloud da Azure:
 
