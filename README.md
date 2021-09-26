@@ -34,14 +34,14 @@ Power BI para visualizção dos dados no BigQuery
 
 ## Procedimentos
 
-Arquitetura:
+### Arquitetura:
 
 
 ![](images/MicrosoftTeams-image.png)
 
 As tecnologias trabalhadas nesse projeto são baseadas na Cloud da Azure:
 
-DAG Airflow:
+### DAG Airflow:
 
 ![](images/dag.PNG)
 
@@ -55,7 +55,7 @@ Bucket com os arquivos parquet:
 ![](images/dados-salvos-formato-parquet.PNG)
 
 
-## Power BI - Visualização dos dados:
+### Power BI - Visualização dos dados:
 
 ![image](https://user-images.githubusercontent.com/35038689/134792038-f09de045-d064-4964-95d7-3861b96da3b5.png)
 
@@ -76,7 +76,7 @@ Bucket com os arquivos parquet:
 ![image](https://user-images.githubusercontent.com/35038689/134792318-a9eadabd-de71-47c5-a050-5abf09d3ed40.png)
     
 
-## Estrutura do Bucket:
+### Estrutura do Bucket:
 
 Decidimos estruturar o Bucket em 2 camadas:
 
