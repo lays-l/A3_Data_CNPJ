@@ -27,10 +27,10 @@ O vídeo de apresentação pode ser acompanhado aqui no youtube: 2min - https://
 
 ## Etapas realizadas:
 
-Extração dos arquivos da página do Ministério da Economia
-Limpeza, tratamentos dos dados e conversão para parquet via Python
-Armazenamento da base completa em formato Parquet no BigQuery, bem como criação das tabelas
-Power BI para visualizção dos dados no BigQuery
+- Extração dos arquivos da página do Ministério da Economia
+- Limpeza, tratamentos dos dados e conversão para parquet via Python
+- Armazenamento da base completa em formato Parquet no BigQuery, bem como criação das tabelas
+- Power BI para visualizção dos dados no BigQuery
 
 ## Procedimentos
 
@@ -39,9 +39,9 @@ Power BI para visualizção dos dados no BigQuery
 
 ![](images/MicrosoftTeams-image.png)
 Obs: Na arquitetura original utilizada, o download direto do site da Receita Federal leva mais tempo que o normal devido aos servidores onde estão hospedados.
+
 No código final, inserimos os arquivos previamente baixados no repositório do Google Cloud Storage para captura.
 
-As tecnologias trabalhadas nesse projeto são baseadas na Cloud da Azure:
 
 ### DAG Airflow:
 
