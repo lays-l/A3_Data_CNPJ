@@ -1,0 +1,6 @@
+datetime
+pandas
+dask
+google
+fsspec>=0.3.3
+gcsfs
