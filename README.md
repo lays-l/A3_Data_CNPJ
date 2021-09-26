@@ -56,20 +56,22 @@ Bucket com os arquivos parquet:
 
 
 ### Power BI - Visualização dos dados:
+Os gráficos no PBI possui um drilldown, onde é possível visualizar por Ano, Mês e Municípios.
+Conta também com os filtros de Ano, Mês e UF, e além disso um mapa onde é possível identificar os estados com maior ocorrências.
 
 ![image](https://user-images.githubusercontent.com/35038689/134792038-f09de045-d064-4964-95d7-3861b96da3b5.png)
 
 ![image](https://user-images.githubusercontent.com/35038689/134792056-bafcd6a6-ff83-4280-aaf2-e9cdf4efd119.png)
 
-![image](https://user-images.githubusercontent.com/35038689/134792071-2dcd2d76-92d6-4b1d-a324-c8dc7c863989.png)
+![image](https://user-images.githubusercontent.com/35038689/134810431-2e0e7075-875f-4e93-93f6-de351e01a6e1.png)
 
-![image](https://user-images.githubusercontent.com/35038689/134792082-08c91e8f-be56-4d9a-80ad-42ee2c725e0d.png)
+![image](https://user-images.githubusercontent.com/35038689/134810953-4dc94b1c-aeed-4572-b32c-703eaa3c5dd7.png)
 
-![image](https://user-images.githubusercontent.com/35038689/134792169-3112f8fa-72ce-4c33-a16a-a3c432d9dbcc.png)
+![image](https://user-images.githubusercontent.com/35038689/134810862-6ae4c999-7ae3-4403-87df-026c14ea9c9d.png)
 
-![image](https://user-images.githubusercontent.com/35038689/134792184-fdb090dc-1d6b-45c8-b8e2-c5a120ce4ebb.png)
+![image](https://user-images.githubusercontent.com/35038689/134810877-a209078f-bfc3-49ee-b9f7-2278c1c43702.png)
 
-![image](https://user-images.githubusercontent.com/35038689/134792288-e140f8bc-6187-4325-904d-16e7445c680b.png)
+![image](https://user-images.githubusercontent.com/35038689/134811029-136712eb-d2c2-4bbc-b3ea-60f91e2c91b8.png)
 
 ![image](https://user-images.githubusercontent.com/35038689/134792305-f762ae7f-f13a-41c1-a97a-4cf8e10580fb.png)
 
