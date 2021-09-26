@@ -55,7 +55,7 @@ Bucket com os arquivos parquet:
 ![](images/dados-salvos-formato-parquet.PNG)
 
 
-Power BI - Visualização dos dados:
+## Power BI - Visualização dos dados:
 
 ![image](https://user-images.githubusercontent.com/35038689/134792038-f09de045-d064-4964-95d7-3861b96da3b5.png)
 
@@ -76,11 +76,13 @@ Power BI - Visualização dos dados:
 ![image](https://user-images.githubusercontent.com/35038689/134792318-a9eadabd-de71-47c5-a050-5abf09d3ed40.png)
     
 
-Estrutura do Bucket:
+## Estrutura do Bucket:
 
 Decidimos estruturar o Bucket em 2 camadas:
 
 A camada RAW onde fica os dados brutos baixados compactados.
 A camada TRUSTED onde fica os dados brutos armazenados em Parquet.
 
-
+## Custos do Projeto
+Foi utilizado o Free Trial oferecido pelo Google para o uso dos serviços
+![image](https://user-images.githubusercontent.com/35038689/134792466-bac80a07-e194-4bcd-898c-4d30311276e0.png)
