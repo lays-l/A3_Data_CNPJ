@@ -21,7 +21,7 @@ jurídica no último ano?
 O projeto consiste na construção de um Pipeline de dados abertos de CNPJ disponibilizados pelo governo em https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj do Ministério da Economia junto com a Receita Federal.
 Desenvolvimento
 
-Os arquivos raw (crus) foram baixados através do site do Ministério da Economia manualmente, por conta do tempo de download, alguns chegaram a 9h para fazer o download completo. Sendo assim eles foram passados para o Bucket, pensando em manter no conceito cloud e também para consultas futuras. A automatização do processo foi feito em Python através de arquivos .py (Python) e a esteira dos dados feita no Airflow. O armazenamento foi realizado no Bucket Cloud Storage do Google. O processamento dos dados foram feitos utilizando a biblioteca Dask em um container Docker com uma imagem do Airflow. Foram criadas tabelas no BigQuery onde foi alimentado com os dados do Bucket após tratados e convertidos para arquivos parquet para serem visualizados em Dashboad via Power BI.
+A automatização do processo foi feito em Python através de arquivos .py (Python) e a esteira dos dados feita no Airflow. O armazenamento foi realizado no Bucket Cloud Storage do Google. O processamento dos dados foram feitos utilizando a biblioteca Dask em um container Docker com uma imagem do Airflow. Foram criadas tabelas no BigQuery onde foi alimentado com os dados do Bucket após tratados e convertidos para arquivos parquet para serem visualizados em Dashboad via Power BI.
 
 O vídeo de apresentação pode ser acompanhado aqui no youtube: 2min - https://youtu.be/v8SJeva1AHs | 5 min - https://youtu.be/oFjQACs78Jk
 
@@ -57,6 +57,23 @@ Bucket com os arquivos parquet:
 
 Power BI - Visualização dos dados:
 
+![image](https://user-images.githubusercontent.com/35038689/134792038-f09de045-d064-4964-95d7-3861b96da3b5.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792056-bafcd6a6-ff83-4280-aaf2-e9cdf4efd119.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792071-2dcd2d76-92d6-4b1d-a324-c8dc7c863989.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792082-08c91e8f-be56-4d9a-80ad-42ee2c725e0d.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792169-3112f8fa-72ce-4c33-a16a-a3c432d9dbcc.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792184-fdb090dc-1d6b-45c8-b8e2-c5a120ce4ebb.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792288-e140f8bc-6187-4325-904d-16e7445c680b.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792305-f762ae7f-f13a-41c1-a97a-4cf8e10580fb.png)
+
+![image](https://user-images.githubusercontent.com/35038689/134792318-a9eadabd-de71-47c5-a050-5abf09d3ed40.png)
     
 
 Estrutura do Bucket:
