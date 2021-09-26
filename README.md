@@ -36,24 +36,26 @@ O vídeo de apresentação pode ser acompanhado aqui no youtube: https://youtu.b
 
 ### Arquitetura
 
+
+![](dag.PNG)
+
 As tecnologias trabalhadas nesse projeto são baseadas na Cloud da Azure:
 
-    DAG Airflow
+DAG Airflow
 
-    
-
-    Airflow com os steps de processamentos de dados com o Python
-
-    
-
-    Bucket com os arquivos parquet
-
-    
+![](dag.PNG)
 
 
-    
+Airflow com os steps de processamentos de dados com o Python
 
-    Power BI - Visualização dos dados
+![](airflow.PNG)
+
+Bucket com os arquivos parquet
+
+![](dados-salvos-formato-parquet.PNG)
+
+
+Power BI - Visualização dos dados
 
     
 
