@@ -1,4 +1,4 @@
-# Projeto Hackathon A3Data - DNA
+# Projeto Hackathon A3 Data - DNA
 
 ### Este repositório contém arquivos do projeto A3Data realizado pela equipe DNA composta por Isabella e Lays.
 
