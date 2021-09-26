@@ -34,28 +34,28 @@ Power BI para visualizção dos dados no BigQuery
 
 ## Procedimentos
 
-### Arquitetura
+### Arquitetura:
 
 
 ![](images/MicrosoftTeams-image.png)
 
-As tecnologias trabalhadas nesse projeto são baseadas na Cloud da Azure:
+### As tecnologias trabalhadas nesse projeto são baseadas na Cloud da Azure:
 
-DAG Airflow
+### DAG Airflow:
 
 ![](images/dag.PNG)
 
 
-Airflow com os steps de processamentos de dados com o Python
+### Airflow com os steps de processamentos de dados com o Python:
 
 ![](images/airflow.PNG)
 
-Bucket com os arquivos parquet
+### Bucket com os arquivos parquet:
 
 ![](images/dados-salvos-formato-parquet.PNG)
 
 
-Power BI - Visualização dos dados
+### Power BI - Visualização dos dados:
 
     
 
