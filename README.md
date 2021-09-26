@@ -63,7 +63,7 @@ Power BI - Visualização dos dados
 
 Decidimos estruturar o Bucket em 2 camadas:
 
-    A camada RAW onde fica os dados brutos baixados compactados.
-    A camada TRUSTED onde fica os dados brutos armazenados em Parquet.
+A camada RAW onde fica os dados brutos baixados compactados.
+A camada TRUSTED onde fica os dados brutos armazenados em Parquet.
 
 
