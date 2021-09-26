@@ -17,16 +17,15 @@ e 2021, discriminado por ano, em cada estado brasileiro?
 jurídica no último ano?
 
 ## Proposta
-
 O projeto consiste na construção de um Pipeline de dados abertos de CNPJ disponibilizados pelo governo em https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj do Ministério da Economia junto com a Receita Federal.
-Desenvolvimento
 
+
+## Desenvolvimento
 A automatização do processo foi feito em Python através de arquivos .py (Python) e a esteira dos dados feita no Airflow. O armazenamento foi realizado no Bucket Cloud Storage do Google. O processamento dos dados foram feitos utilizando a biblioteca Dask em um container Docker com uma imagem do Airflow. Foram criadas tabelas no BigQuery onde foi alimentado com os dados do Bucket após tratados e convertidos para arquivos parquet para serem visualizados em Dashboad via Power BI.
 
 O vídeo de apresentação pode ser acompanhado aqui no youtube: 2min - https://youtu.be/v8SJeva1AHs | 5 min - https://youtu.be/oFjQACs78Jk
 
 ## Etapas realizadas:
-
 - Extração dos arquivos da página do Ministério da Economia
 - Limpeza, tratamentos dos dados e conversão para parquet via Python
 - Armazenamento da base completa em formato Parquet no BigQuery, bem como criação das tabelas
@@ -35,7 +34,6 @@ O vídeo de apresentação pode ser acompanhado aqui no youtube: 2min - https://
 ## Procedimentos
 
 ### Arquitetura:
-
 
 ![](images/MicrosoftTeams-image.png)
 Obs: Na arquitetura original utilizada, o download direto do site da Receita Federal leva mais tempo que o normal devido aos servidores onde estão hospedados.
@@ -84,8 +82,8 @@ Conta também com os filtros de Ano, Mês e UF, e além disso um mapa onde é po
 
 Decidimos estruturar o Bucket em 2 camadas:
 
-A camada RAW onde fica os dados brutos baixados compactados.
-A camada TRUSTED onde fica os dados brutos armazenados em Parquet.
+- A camada RAW onde fica os dados brutos baixados compactados.
+- A camada TRUSTED onde fica os dados brutos armazenados em Parquet.
 
 ## Custos do Projeto
 Foi utilizado o Free Trial oferecido pelo Google para o uso dos serviços
