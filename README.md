@@ -17,7 +17,7 @@ e 2021, discriminado por ano, em cada estado brasileiro?
 jurídica no último ano?
 
 ## Proposta
-O projeto consiste na construção de um Pipeline de dados abertos de CNPJ disponibilizados pelo governo em https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj do Ministério da Economia junto com a Receita Federal.
+O projeto consiste na construção de um Pipeline de dados abertos de CNPJ disponibilizados pelo governo no [site](https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj) da Receita Federal.
 
 
 ## Desenvolvimento
