@@ -33,8 +33,6 @@ O vídeo de apresentação pode ser acompanhado aqui no youtube: 2min - https://
 
 ## Procedimentos
 
-### Arquitetura:
-
 ![](images/MicrosoftTeams-image.png)
 Obs: Na arquitetura original utilizada, o download direto do site da Receita Federal leva mais tempo que o normal devido aos servidores onde estão hospedados.
 
