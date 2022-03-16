@@ -102,4 +102,4 @@ A solução paliativa foi realizar o download em lotes executando o código manu
 
 A solução ideal teria sido criar uma lógica de reconexão automática para evitar o time out e a exclusão dos arquivos em tempo de execução.
 
-Na pasta _reference_codes_ se encontram os códigos não organizados e utilizados para testes e validações via notebook, antes da lógica ter sido aplicada no modelo pro Airflow. Neste será possível verificar a lógica do download dos arquivos mencionada acima.
+Na pasta _reference_codes_ se encontram os códigos não organizados e utilizados para testes e validações via Jupyter Notebook, antes da lógica ter sido aplicada no modelo pro Airflow. Neste será possível verificar a lógica do download dos arquivos mencionada acima.
