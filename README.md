@@ -84,7 +84,7 @@ Conta também com os filtros de Ano, Mês e UF, e além disso um mapa onde é po
 ![image](https://user-images.githubusercontent.com/35038689/134792318-a9eadabd-de71-47c5-a050-5abf09d3ed40.png)
     
 
-### Estrutura do Bucket:
+### Estrutura do Bucket
 
 Decidimos estruturar o Bucket em 2 camadas:
 
@@ -94,3 +94,10 @@ Decidimos estruturar o Bucket em 2 camadas:
 ## Custos do Projeto
 Foi utilizado o Free Trial oferecido pelo Google para o uso dos serviços
 ![image](https://user-images.githubusercontent.com/35038689/134792466-bac80a07-e194-4bcd-898c-4d30311276e0.png)
+
+### Considerações finais e desafios
+O download dos arquivos foi efetuado usando a ftplib do python, porém acabou se tornando uma etapa semi-manual devido ao volume de dados. Quando automatizado pra realizar o download em tempo de execução, a limitação de espaço em disco e o timeout da conexão do ftp faziam com que a base desejada não fosse baixada por completo.
+A solução paliativa foi realizar o download em lotes executando o código manualmente e subindo no repositório do Google Cloud responsável pelos arquivos raw. A partir desse ponto todo o processamento seguiu considerando esses arquivos já na cloud.
+A solução ideal teria sido criar uma lógica de reconexão automática para evitar o time out e a exclusão dos arquivos em tempo de execução.
+
+Na pasta reference_codes se encontram os códigos não organizados e utilizados para testes e validações via notebook, antes da lógica ter sido aplicada no modelo pro Airflow. Neste será possível verificar a lógica do download dos arquivos mencionada acima.
